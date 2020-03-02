@@ -9,3 +9,11 @@ arr = arr.filter(i => {
     return i != 'c'
 })
 ```
+
+### $set
+
+### 对象赋值不改变原对象
+
+```javascript
+Object.assign()
+```
