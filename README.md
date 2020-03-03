@@ -17,3 +17,9 @@ arr = arr.filter(i => {
 ```javascript
 Object.assign()
 ```
+
+### 数组去重
+```javascript
+const myArray = [1,1,2,2,3,3,4,4,5,5]
+[...new Set(myArray )];  // [1, 2, 3, 4, 5]
+```
