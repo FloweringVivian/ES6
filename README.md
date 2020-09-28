@@ -21,12 +21,12 @@ this.$set(obj, 'name', value);  //三个参数分别为对象、参数名、参�
 ### 对象赋值不改变原对象
 
 ```javascript
-const newObj = Object.assign({}, oldObj);
+let newObj = Object.assign({}, oldObj);
 ```
 
 ### 数组去重
 ```javascript
-const myArray = [1,1,2,2,3,3,4,4,5,5]
+let myArray = [1,1,2,2,3,3,4,4,5,5]
 [...new Set(myArray )];  // [1, 2, 3, 4, 5]
 ```
 
